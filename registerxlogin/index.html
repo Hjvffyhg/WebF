@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome - Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main card container -->
+    <div class="card-container">
+      <!-- LEFT SIDE: Login Form -->
+      <div class="card-left">
+        <h1 class="title">Welcome</h1>
+
+        <!-- Google Login Button -->
+        <button type="button" class="btn-google">
+          <span>Log in With Google</span>
+        </button>
+
+        <!-- Divider line -->
+        <div class="divider">
+          <span>Or Log in with Email</span>
+        </div>
+
+        <!-- Form Inputs -->
+        <form id="loginForm">
+          <div class="input-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+
+          <div class="input-group">
+            <input
+              type="password"
+              id="password"
+              placeholder="Your Password"
+              required
+            />
+          </div>
+
+          <!-- Options: Remember Me & Forgot Password -->
+          <div class="form-options">
+            <label class="checkbox-container">
+              <input type="checkbox" id="rememberMe" />
+              <span>Keep me logged in</span>
+            </label>
+            <a href="#" class="forgot-link">Forgot Password</a>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn-submit">
+            <span>Log in</span>
+            <span class="arrow">&rarr;</span>
+          </button>
+        </form>
+
+        <!-- Sign up link -->
+        <p class="signup-text">
+          Don't have an account yet? <a href="#">Sign up</a>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

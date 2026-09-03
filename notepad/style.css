@@ -1,0 +1,12 @@
+.boxes {
+  border: 1px solid #000000;
+
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  direction: column;
+}
+
+.box {
+  border: 1px solid #000000;
+}

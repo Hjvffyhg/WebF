@@ -1,0 +1,51 @@
+/* #F2F2F2: Main background (soft off-white)
+#D9D9D9: Soft borders and divider lines
+#737373: Readable body text (subtle gray)
+#1A1A1A: Bold headings and primary buttons */
+
+.custom-mono {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Choose any value from 100 to 700 */
+  font-style: normal; /* Or italic */
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  display: flexbox;
+  align-content: center;
+}
+
+table {
+  border-color: 1px solid black;
+  border-width: 1px;
+  border-style: solid;
+}
+th,
+td {
+  border-color: 1px solid black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 5px;
+}
+
+.header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.main-content {
+  padding: 20px;
+  background-color: #737373;
+}
+.member-section {
+  margin-bottom: 20px;
+}
+.member_img {
+  display: inline;
+  width: auto;
+  height: 100px;
+}
